@@ -72,6 +72,21 @@
     justify-content: flex-start;
     grid-column: 1 /span3;
 }
+.bootstrap1{
+    min-height: 400px;
+    padding: 20px;
+    text-align: center;
+    background-position:bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    grid-column: 1 /span3;
+
+}
+.col-4{
+    background-color: darkolivegreen;
+}
 /*Hago el iframe responsive*/
 .iframe-responsive{
     top:0;
