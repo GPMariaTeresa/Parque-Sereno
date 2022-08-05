@@ -1,47 +1,12 @@
+@import "./parciales/_variables.scss"; // siempre va al inicio para poder usar las variables
 @import "./parciales/base.scss";
 @import "./parciales/header.scss";
+@import "./parciales/footer.scss";
 
 
-.header .menu ul {
-   display: flex;
-   font-family: 'Cormorant Garamond', serif;
-   font-weight:bold;
-   list-style: none;
-   text-align: center;
-}
-.header .menu ul li{
-  display:flex;
 
-}
 
-.header .menu ul li a{
-   
-   color: black;   /*aplico flex al menú*/
-   padding: 10px;
-   margin: 0 10px;
-   position: relative;
-   text-decoration: none;
-}
-.header .menu ul li a:hover {
-   background-color:rgba(223, 207, 179, 0.857);
-   display: grid; /*agregué ahora*/
-   grid-template-columns: 20% 20% 20% 20%  20%;
-}
 
-.intro {
- 
-  background-image: url(../imagenes1/Imagenes2/inicio.jpg) ;
-  background-color: rgb(216, 211, 191);
-   min-height: 400px;
-   padding: 20px;
-   text-align: center;
-   background-position: center;
-   background-size: cover;
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-start;
-   grid-column: 1 /span3;
-}
 .bootstrap1{
    min-height: 400px;
    padding: 20px;
@@ -68,17 +33,7 @@
   
 }
 
-.intro .intro__title {
-   color: white;
-   background-color: transparent;
-   font-size: 40px;
-   margin-bottom: 20px;
-   text-align-last: center;   
-} 
-.intro  h2{
-   color: white;
-   text-align-last: center;
-}
+
 
  /*----------------Estilo de pagina Como Llegar --------------------------------------*/
 
@@ -343,7 +298,7 @@ nav {
    margin: 30px;
 }
 
-/*En footer del index en el párrafo agregué animaciones con animate css*/
+
 
 .footer{
    background: wheat;

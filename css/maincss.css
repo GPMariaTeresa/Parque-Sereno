@@ -1,4 +1,16 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.grid-container {
+  display: grid;
+  gap: 5px;
+  /*AGREGUÉ*/
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat 4, auto; }
+
 .header {
   grid-column: 1/ span3; }
 
@@ -41,29 +53,35 @@
   /*agregué ahora*/
   grid-template-columns: 20% 20% 20% 20%  20%; }
 
-.header .menu ul {
-  display: flex;
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: bold;
-  list-style: none;
+/*En footer del index en el párrafo agregué animaciones con animate css*/
+.footer {
+  background: wheat;
+  width: 100%;
+  /*margin-top: 50px;*/
+  grid-column: 1 /  span3; }
+
+.footer p {
   text-align: center; }
 
-.header .menu ul li {
-  display: flex; }
+.footer .sociales {
+  background: wheat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
 
-.header .menu ul li a {
+.sociales a {
+  font-size: 25px;
   color: black;
-  /*aplico flex al menú*/
-  padding: 10px;
-  margin: 0 10px;
-  position: relative;
-  text-decoration: none; }
+  display: block;
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  padding: 0 10px; }
 
-.header .menu ul li a:hover {
-  background-color: rgba(223, 207, 179, 0.857);
-  display: grid;
-  /*agregué ahora*/
-  grid-template-columns: 20% 20% 20% 20%  20%; }
+/*Aplico transiciones en iconos de redes sociales del footer*/
+.sociales a:hover {
+  filter: blur(2px); }
 
 .intro {
   background-image: url(../imagenes1/Imagenes2/inicio.jpg);
@@ -371,7 +389,6 @@ nav {
   width: 50%;
   margin: 30px; }
 
-/*En footer del index en el párrafo agregué animaciones con animate css*/
 .footer {
   background: wheat;
   width: 100%;
