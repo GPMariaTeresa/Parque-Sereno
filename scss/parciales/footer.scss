@@ -1,0 +1,31 @@
+.footer{
+    background: wheat;
+    width: 100%;
+    /*margin-top: 50px;*/
+    grid-column: 1 /  span3;
+ }
+ .footer p{
+    text-align: center;
+ }
+ 
+ .footer .sociales{
+    background: wheat ;
+    display: flex;
+    flex-direction: row;
+   justify-content:center;
+    flex-wrap: wrap;
+ }
+ .sociales a{
+    font-size: 25px;
+    color: black;
+    display: block;
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    padding:  0 10px;
+ }
+ /*Aplico transiciones en iconos de redes sociales del footer*/
+ .sociales a:hover {
+    filter: blur(2px);
+ }
+ 
