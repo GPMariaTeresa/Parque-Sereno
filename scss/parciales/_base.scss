@@ -14,7 +14,7 @@
  .intro {
  
    background-image: url(../imagenes1/Imagenes2/inicio.jpg) ;
-   background-color: rgb(216, 211, 191);
+   background-color: $colorBackground; //rgb//
     min-height: 400px;
     padding: 20px;
     text-align: center;
@@ -25,14 +25,14 @@
     justify-content: flex-start;
     grid-column: 1 /span3;
     & .intro__title {
-      color: white;
+      color: $colortexto;
       background-color: transparent;
       font-size: 40px;
       margin-bottom: 20px;
       text-align-last: center;   
       } 
    .intro  h2{
-      color: white;
+      color: $colortexto;
       text-align-last: center;
    }
  }

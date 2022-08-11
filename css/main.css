@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* siempre va al inicio para poder usar las variables*/
 * {
   margin: 0;
   padding: 0;
@@ -29,7 +28,7 @@
 }
 
 .intro .intro__title {
-  color: white;
+  color: rgba(255, 255, 0, 0.486);
   background-color: transparent;
   font-size: 40px;
   margin-bottom: 20px;
@@ -37,7 +36,7 @@
 }
 
 .intro .intro h2 {
-  color: white;
+  color: rgba(255, 255, 0, 0.486);
   text-align-last: center;
 }
 
