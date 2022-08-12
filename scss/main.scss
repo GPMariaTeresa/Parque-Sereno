@@ -74,7 +74,7 @@
    text-decoration: none;   
 }
 .header-llegar .menu ul li a:hover {
-   background-color: rgba(224, 210, 190, 0.418);
+   background-color: $colorMenuBackground;
    display: grid; /*agregué ahora*/
    grid-template-columns: 20% 10% 20% 20%  20%;
 }
@@ -117,7 +117,7 @@
    text-decoration: none;
 }
 .header-con .menu ul li a:hover {
-   background-color:rgba(223, 207, 179, 0.857);
+   background-color: $colorMenuBackground;
    display: flex; /*agregué ahora*/
    grid-template-columns: 20% 10% 20% 20%  20%;
 }
@@ -182,7 +182,7 @@
    padding: 10px;
 }
 .header-galeria .menu ul li a:hover {
-   background-color: rgb(224, 193, 139);
+   background-color: $colorMenuBackground;
    display: grid;
    grid-template-columns: 20% 10% 20% 20%  20%;
 }
@@ -252,7 +252,7 @@ nav {
     text-decoration: none;
    }
 .header-ser nav ul li a:hover {
-   background-color: rgba(228, 191, 128, 0.857);
+   background-color: $colorMenuBackground;
    display: grid;
    grid-template-columns: 20% 10% 20% 20%  20%;
 }
