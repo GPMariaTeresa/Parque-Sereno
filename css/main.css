@@ -156,6 +156,39 @@
   flex-wrap: wrap;
 }
 
+.item {
+  background-color: #333333;
+  width: 50px;
+  height: 50px;
+  border-radius: 2rem;
+}
+
+.item__name {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.item__image {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 70px;
+  transition: all 1s;
+}
+
+/*Agrego mapa de SASS*/
+.item--d1 {
+  background-image: linear-gradient(153deg, #020024 0%, #ff0085 100%);
+}
+
+.item--d2 {
+  background-image: linear-gradient(153deg, #e9d362, #333333);
+}
+
+.item--d3 {
+  background-image: linear-gradient(153deg, #5f2c82, #49609d);
+}
+
 /*----------------Estilo de pagina Como Llegar --------------------------------------*/
 .header-llegar {
   grid-column: 1 / span 3;
