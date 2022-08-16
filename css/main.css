@@ -172,20 +172,20 @@
   position: absolute;
   bottom: 1rem;
   right: 1rem;
-  width: 70px;
+  /* width: 90px;*/
   transition: all 1s;
 }
 
 /*Agrego mapa de SASS*/
-.item--d1 {
+.item --d1 {
   background-image: linear-gradient(153deg, #020024 0%, #ff0085 100%);
 }
 
-.item--d2 {
+.item --d2 {
   background-image: linear-gradient(153deg, #e9d362, #333333);
 }
 
-.item--d3 {
+.item --d3 {
   background-image: linear-gradient(153deg, #5f2c82, #49609d);
 }
 

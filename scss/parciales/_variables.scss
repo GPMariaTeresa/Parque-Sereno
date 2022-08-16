@@ -2,3 +2,9 @@
 $colortexto: white;
 $colorBackground: rgb(216,211,191);
 $colorMenuBackground: rgba(223, 207, 179, 0.857);
+
+$degradados: (
+   d1: linear-gradient(153deg, rgba(2,0,36,1)0%,rgba(255,0,133,1)100%),
+   d2: linear-gradient(153deg, #e9d362,#333333),
+   d3: linear-gradient(153deg, #5f2c82,#49609d),
+);
